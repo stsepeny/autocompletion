@@ -1,0 +1,37 @@
+{{ define "content" }}
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+    <h1>{{printf "%s" .Title}}</h1>
+
+    <p>
+        {{printf "%s" .Message}}
+    </p>
+
+    <p>
+        <form id="form-autocomplete" name="form-autocomplete">
+            <div class="typeahead__container">
+                <div class="typeahead__field">
+
+                    <span class="typeahead__query">
+                        <input class="js-typeahead-demo" name="demo[query]" type="search" placeholder="Search" autocomplete="off">
+                    </span>
+                    <span class="typeahead__button">
+                        <button type="submit">
+                            <i class="typeahead__search-icon"></i>
+                        </button>
+                    </span>
+
+                </div>
+            </div>
+        </form>
+    </p>
+
+</div>
+
+{{ end }}
+
+{{ define "head" }}
+  <!--Show ability to set title with the same data-->
+  <title>{{printf "%s" .Title}}!</title>
+{{ end }}

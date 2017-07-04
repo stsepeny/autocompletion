@@ -1,0 +1,12 @@
+dispatch:
+  # Default service serves the typical web resources and all static resources.
+  - url: "*/favicon.ico"
+    service: default
+
+  # Default
+  - url: "autocompletion-172305.appspot.com/"
+    service: default
+
+  # ferret search backend
+  - url: "*/ferret/*"
+    service: autocomplete
