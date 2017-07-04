@@ -14,14 +14,6 @@ The [demo page](http://bootstrap.m0d3rnc0ad.appspot.com/), shows the ability to 
 
 In addition to checking out this git repo, you can fetch the project with ```go get``` and immediately run it locally:
 
-```bash
-> go get github.com/TheAndruu/Go-App-Engine-Bootstrap-Quickstart
-
-> cd $GOPATH/src/github.com/TheAndruu/Go-App-Engine-Bootstrap-Quickstart
-
-> goapp serve
-```
-
 Navigating a browser to `localhost:8080` then displays the welcome page!
 
 ### Set Up App Engine SDK
