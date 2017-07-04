@@ -12,7 +12,7 @@ inbound_services:
   - warmup
 
 env_variables:
-  MYSQL_CONNECTION: root:Kaligula48@cloudsql(autocompletion-172305:us-west1:products)/products
+  MYSQL_CONNECTION: root:@cloudsql(autocompletion-172305:us-west1:products)/products
 
 handlers:
 - url: /_ah/warmup
