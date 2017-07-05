@@ -25,5 +25,10 @@ handlers:
   static_files: bootstrap/fonts/\1
   mime_type: application/vnd.ms-fontobject
 
+- url: /loaderio-3d5a2c321866aab1e45b798350db7713/
+  upload: loaderio-3d5a2c321866aab1e45b798350db7713.txt
+  static_files: loaderio-3d5a2c321866aab1e45b798350db7713.txt
+  mime_type: text/css
+
 - url: /.*
   script: _go_app
